@@ -1,5 +1,7 @@
 package classroomSix;
 
+import classroomSix.homeWork8.Customer;
+
 import java.util.Scanner;
 
 public class Calculator {

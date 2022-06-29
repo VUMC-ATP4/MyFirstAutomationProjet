@@ -1,4 +1,4 @@
-package classroomSix;
+package classroomSixtEST;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,8 +18,6 @@ public class FirstSeleniumTest {
         String expectedTitle = "Online shop – acodemy – Just another WordPress site";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle,expectedTitle);
-        driver.findElement(By.linkText("Cart")).click();
-        Thread.sleep(10000);
         driver.quit();
     }
 

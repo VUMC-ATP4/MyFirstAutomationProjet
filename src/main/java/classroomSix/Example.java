@@ -1,6 +1,6 @@
 package classroomSix;
 
-import java.util.Scanner;
+import classroomSix.homeWork8.Customer;
 
 public class Example {
 
